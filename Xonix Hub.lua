@@ -573,6 +573,10 @@ end)
 
 runBtn.MouseButton1Click:Connect(function()
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/K1LAS1K/Ultimate-Fling-GUI/main/flingscript.lua"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+
 	if not ExtraAction then
 		loadExtraAction()
 		setRunEnabled(ExtraAction ~= nil)
